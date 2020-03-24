@@ -1,0 +1,31 @@
+.list {
+  color: white;
+  width: 320px;
+  background-color: black;
+  //height: 50px;
+  margin: 5px auto;
+  border-radius: 5px;
+
+  p {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    input {
+      background-color: transparent;
+      border: 0;
+      color: white;
+      font-size: 16px;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .delete {
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+}
