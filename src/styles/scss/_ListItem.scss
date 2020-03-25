@@ -1,14 +1,37 @@
+.lists {
+  width: 335px;
+ max-height: 340px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: yellow;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: black;
+  }
+}
+
 .list {
   color: white;
-  width: 320px;
+  width: 300px;
   background-color: black;
-  //height: 50px;
-  margin: 5px auto;
+  margin: 0 auto;
   border-radius: 5px;
 
   p {
     padding: 10px;
     display: flex;
+    margin: 15px 0;
     justify-content: space-between;
     align-content: center;
     align-items: center;
